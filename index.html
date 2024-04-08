@@ -10,7 +10,12 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <div id="app">
+        <h1>EMAILS LIST</h1>
 
+        <ul>
+            <li v-for="email in emails">{{email}}</li>
+        </ul>
     </div> 
+    <script src="./JS/app.js"></script>
 </body>
 </html>
